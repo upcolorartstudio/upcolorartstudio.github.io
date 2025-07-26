@@ -1,13 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Open PDF</title>
+  <title>Choose a PDF</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+      background-color: #f9f9f9;
+    }
+    a {
+      display: inline-block;
+      margin: 20px;
+      padding: 15px 30px;
+      background-color: #0066cc;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+    }
+    a:hover {
+      background-color: #004c99;
+    }
+  </style>
 </head>
 <body>
-  <h1>View PDF</h1>
-  <a href="file.pdf" target="_blank">Open PDF in New Tab</a>
-  <br><br>
-  <iframe src="file.pdf" width="100%" height="600px" style="border: none;"></iframe>
+  <h1>Select a PDF</h1>
+
+  <a href="first.pdf" target="_blank">View PDF 1</a>
+  <a href="second.pdf" target="_blank">View PDF 2</a>
+
 </body>
 </html>
